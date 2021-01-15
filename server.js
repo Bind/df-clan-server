@@ -20,7 +20,7 @@ function isAllowedToAccessRoom(userID, room) {
 // This key works! But is very much not your API key.
 // We'd recommend using an environment variable instead.
 const API_KEY = process.env.API_KEY;
-
+app.options("/api/roomservice", cors());
 app.post("/api/roomservice", async (req, res) => {
   const body = req.body;
 
