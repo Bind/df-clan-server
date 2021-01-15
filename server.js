@@ -5,9 +5,9 @@ const cors = require("cors");
 const app = express();
 const port = 8080;
 
-app.use(cors());
 app.use(express.json());
 app.use(cookieParser());
+app.use(cors());
 
 function getUserIDFromSession(session) {
   return "my-user-id";
