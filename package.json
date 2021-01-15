@@ -1,19 +1,20 @@
 {
-    "name": "df-multiplayer-server",
-    "version": "1.0.0",
-    "main": "server.js",
-    "author": "Flaque",
-    "license": "MIT",
-    "dependencies": {
-      "cookie-parser": "^1.4.5",
-      "express": "^4.17.1",
-      "node-fetch": "^2.6.1"
-    },
-    "scripts": {
-      "server": "nodemon server.js"
-    },
-    "devDependencies": {
-      "nodemon": "^1.17.3",
-      "style-loader": "^1.2.1"
-    }
+  "name": "df-multiplayer-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Flaque",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "style-loader": "^1.2.1"
   }
+}
